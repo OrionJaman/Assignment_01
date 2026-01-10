@@ -188,22 +188,22 @@ margin-bottom: 20px;
   gap:60px;
  
 }
-.apps-1 .hero .image img{
+.apps-1 .hero .image img,.header-btn .btn1 img{
   position: relative;
-  top:30px;
-  bottom:5px;
+  top:5px;
+
 }
 
 .apps-1 .image-details .knowledge #id1{
   color: #30B868;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 16px;
 }
 .apps-1 .image-details .knowledge #id2, .apps-1 .image-details .knowledge #id3{
   color: #001931;
   font-size: 48px;
   line-height: 60px;
- 
+  font-weight: 700;
 }
 
 .apps-1 .image-details .knowledge #id4,.apps-1 .image-details .knowledge #id5,.apps-1 .image-details .knowledge #id6{
@@ -218,7 +218,83 @@ color:#627382;
   margin-bottom: 16px;
   font-weight: 500;
 }
+.tasks img{
+  position: relative;
+  top:5px;
+}
+.special{
+    padding: 0 120px 120px 120px;
+    text-align: center;
+}
+.special .f1{
+  margin-bottom: 24px;
+}
 
+
+button:hover {
+  background-color: #249a55;  
+  border: 2px solid rgb(175, 175, 175);
+  box-shadow: 0 8px 20px #627382;
+}
+.special h2{
+  color: #001931;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 700;
+  margin:80px 40px 16px 40px;
+}
+.special p{
+  line-height: 20px;
+color:#627382;
+font-weight: 400;
+}
+ .special-btn button{
+   width: 251px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 6px;
+    background-color: #30B868;
+    margin-bottom: 16px;
+}
+.special-btn img{
+  background-color: #30B868;
+  position: relative;
+  top:5px;
+  
+}
+footer{
+  background-color: #000731;
+  height: 337px;
+  padding: 109px 109px 30px 120px;
+}
+footer .footer-doc .footer-head{
+  display: flex;
+  gap:1000px;
+  margin-bottom: 80px;
+}
+.footer-head .links h4{
+color:#FFFFFF;
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 16px;
+}
+footer hr {
+  background-color: rgb(42, 41, 41); 
+  height: 1px;                         
+  border: none;                         
+  margin-bottom: 30px;                  
+}
+
+ .footer-copyright p {
+    margin-top: 30px;
+  color: #fafafa;
+  text-align: center;
+  font-size: 16px;
+font-weight: 400;
+
+}
 
 
 
