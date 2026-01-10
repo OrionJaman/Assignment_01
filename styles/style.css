@@ -53,7 +53,7 @@ body{
     width:100%;
     max-width:1600px;
 
-     background :url(../hero-bg.png);
+     background :url(../assets/hero-bg.png);
       background-position: 0px 0px;
     background-repeat: no-repeat;
     height:700px;
@@ -153,6 +153,10 @@ body{
   height:322px;
   width:300px;
   text-align: center;
+}
+.magic:hover{
+  background-color:transparent;  
+  border: 2px solid rgb(207, 182, 56);
 }
 .cards .magic img {
   height: 32px;
