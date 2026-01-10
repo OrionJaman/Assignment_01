@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.navbar{
+    width: 100%;
+    max-width: 1600px;
+      font-size: 16px;
+      font-family: Inter;
+      display: flex;
+      gap:346px;
+    margin: 34px 120px;
+}
+.nav-details{
+    display: flex;
+    gap: 32px;
+    font-weight: 500;
+    align-items: center;
+    color:#000000;
+    margin:18px 0px;
+}
+.nav-btn button{
+    width:164px;
+    height:44px;
+    font-weight:semi-bold;
+    line-height: 20px;
+    background-color: #469165;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+   
+}
