@@ -156,7 +156,8 @@ body{
 }
 .magic:hover{
   background-color:transparent;  
-  border: 2px solid rgb(207, 182, 56);
+  border: 2px solid rgb(204, 216, 41);
+  box-shadow: 0 8px 10px #627382;
 }
 .cards .magic img {
   height: 32px;
